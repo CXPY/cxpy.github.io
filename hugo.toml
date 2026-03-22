@@ -1,0 +1,12 @@
+baseURL = 'https://cxpy.github.io/'
+languageCode = 'zh-CN'
+title = 'VTK DICOM Viewer Demo'
+theme = 'bare'
+
+[params]
+  description = "基于 VTK 的 DICOM 医学影像查看器演示"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
